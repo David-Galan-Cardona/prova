@@ -20,8 +20,8 @@ namespace activitats
         {
             int choice = 0;
             double side = 0, otherSide = 0;
-            const string Choice = "Quina forma vols calcular? \n 1.Quadrat \n 2.Rectangle \n 3.Cercle \n 4.Pentàgon", Square = "Digues el costat del quadrat:",
-                Rectangle = "Digues el primer costat:", Rectangle2 = "Digues el segon costat:", Sphere = "Digues el radi de la esfera:", PentagonMsg = "Introdueix la base:", Pentagon2 = "Introdueix l'apotema:";
+            const string Choice = "Quina forma vols calcular? \n 1.Quadrat \n 2.Rectangle \n 3.Cercle \n 4.Pentàgon", Square = "Digues el costat del quadrat",
+                Rectangle = "Digues el primer costat", Rectangle2 = "Digues el segon costat", Sphere = "Digues el radi de la esfera", PentagonMsg = "Introdueix la base", Pentagon2 = "Introdueix l'apotema";
 
             Console.WriteLine(Choice);
             choice = Convert.ToInt32(Console.ReadLine());
